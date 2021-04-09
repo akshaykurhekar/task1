@@ -59,7 +59,8 @@ function Main(props) {
         
     axios.post('/empData.json',empData)
         .then( res =>{
-             console.log(res);
+            alert("Data Inserted successfully");
+            // console.log(res);
         }).catch(error => {
             console.log(error);
         });
