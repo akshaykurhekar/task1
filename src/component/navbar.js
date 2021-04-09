@@ -6,7 +6,7 @@ const navbar = () => {
   return (
     <div className="navbar">
     <Navbar expand="lg">
-    <Navbar.Brand className="heading" href="/"> Assignment by Zentri Studios </Navbar.Brand>
+    <Navbar.Brand className="heading" href="/task1/#/"> Assignment by Zentri Studios </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
